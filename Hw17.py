@@ -6,4 +6,4 @@ def calculate_change(amount_paid, total_bill):
     else:
         change=amount_paid - total_bill
         return change
-        print("The change is:" , calculate_change(amount_paid, total_bill))
+        print("The change is:" , calculate_change (amount_paid, total_bill))
