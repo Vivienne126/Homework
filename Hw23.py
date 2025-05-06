@@ -6,4 +6,4 @@ for i in tup_1:
 #Product of numbers in tuple 2
 for i in tup_2:
     product1=i*i+1
-    print("The product of numberds is {}".format(product1))
+    print("The product of numberds is {}".format(product1Hw33.py))
