@@ -1,9 +1,7 @@
-tup_1=(4,3,2,2,-1,18)
-tup_2=(2,4,8,8,3,2,9)
-for i in tup_1:
-    product=i*i+1
-    print("The product of the number is:" , product)
-#Product of numbers in tuple 2
-for i in tup_2:
-    product1=i*i+1
-    print("The product of numberds is {}".format(product1Hw33.py))
+my_dictionary={ "a":2 , "b":2 , "c":2 , "d":1}
+k=int(input("Enter the value you want to  check the frequency of"))
+c=0
+for value in my_dictionary.values():
+    if value==k:
+        c=c+1
+print(c)
